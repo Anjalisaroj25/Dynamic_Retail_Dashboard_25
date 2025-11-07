@@ -62,7 +62,7 @@ Sum of Profit Margin	Profit Margin	🔍
        + Total Quantity = =SUM(Quantity)
    4. Build a dynamic KPI table and use symbols to enhance visual appeal.
 <img width="627" height="94" alt="Screenshot 2025-11-07 150459" src="https://github.com/user-attachments/assets/12fc4186-46ab-4012-a0ee-a206f21dd6b2" />
-> This dashboard displays key metrics including **Total Sales**, **Profit**, **Quantity Sold**, and **Profit Margin** for business performance analysis.
+
 ### 2. Sales and Profit Analysis
 **Objective:** Visualize sales and profit trends to identify patterns.
 ##### Steps:
