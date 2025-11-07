@@ -39,6 +39,15 @@ Contains details about sales representatives and their respective regions.
 | Julia Alvarez  | America    |
 | Guleon Roberts | Caribbean  |
 | Maria Smith    | Caribbean  |
+### KPI Table
+The KPI table consolidates the most essential performance metrics for the retail analysis. These KPIs allow the dashboard to provide actionable insights by comparing important aspects of sales performance.
+KPI	NAME	Symbol
+Sum of Sales	Total Sales	📈
+Sum of Profit	Total Profit	💰
+Sum of Quantity	Total Qty	📦
+Count of Order ID	No. of Orders	🛒
+Sum of Profit Margin	Profit Margin	🔍
+<img width="357" height="145" alt="image" src="https://github.com/user-attachments/assets/eb9b5939-4333-495a-94e1-af130d3f6b77" />
 ## Problem Statements Solved with Steps
 ### 1. Key Performance Indicators (KPIs)
 **Objective:** Calculate and display Total Sales, Total Profits, Total Quantity, Number of Orders, and Profit Margin dynamically.
@@ -52,7 +61,60 @@ Contains details about sales representatives and their respective regions.
        + Total Profit = =SUM(Profit)
        + Total Quantity = =SUM(Quantity)
    4. Build a dynamic KPI table and use symbols to enhance visual appeal.
- ### 📊 Business Performance Dashboard
-
-![Dashboard Overview](dashboard.png)
-
+<img width="627" height="94" alt="Screenshot 2025-11-07 150459" src="https://github.com/user-attachments/assets/12fc4186-46ab-4012-a0ee-a206f21dd6b2" />
+> This dashboard displays key metrics including **Total Sales**, **Profit**, **Quantity Sold**, and **Profit Margin** for business performance analysis.
+### 2. Sales and Profit Analysis
+**Objective:** Visualize sales and profit trends to identify patterns.
+##### Steps:
+  1. Create a Pivot Table with **Order Date** grouped by Year and Month.
+  2. Add **Sales** and **Profit** as values.
+  3. Create a Line Chart to display trnds for Sales and Profit.
+  4. Apply slicers to filter by category, market, or region dynamically.
+### 3. Category -Wise Profit
+**Objective:** Analyse profitability across product categories.
+##### Steps:
+   1. Create a Pivot Table using Category as rows and Profit as values.
+   2. Sort the table in descending order of Profit.
+   3. Create a Bar Chart to visualize category-wise profit.
+   4. Add slicer for interactivity.
+### 4. Segment-Wise Sales Share(%)
+**Objective:** Display the proportion of sales for each customer segment.
+##### Steps: 
+   1. Create a Pivot Table with Segment as rows and Sales as values
+   2. Calculate percentage share using =Sales/Total Sales*100.
+   3. Create a Pie Chart or Donut Chart to display the Sales share.
+   4. Add lables to show percentage value dynamically.
+### 5. Sales by Country
+**Objective:** Analyse Sales performance by country.
+##### Steps:
+   1. Create a Pivot Table with Country as rows and sales as values.
+   2. Sort the table in descending order of Sales.
+   3. Use Conditional Formatting or a Heatmap to highlight top performing countrues.
+### 6. Top 5 Subcategories
+**Objective:** Identify the top 5 performing subcategories.
+##### Steps: 
+   1. Create a Pivot Table with Sub-category as rows and Sales as values.
+   2.  Sort the table in descending order of Sales.
+   3.  Filter to display the top 5 subcategories.
+   4.  Use a Column Chart to visualize results.
+### Dynamic Features
+The dashboard includes:
+  1. **Dynamic Charts:** Update in real-time based on slicer inputs.
+  2. **Power Query Integration:**  Automates data cleaning and transformation.
+  3. **KPI Table:** Highlights critical metrics at a glance.
+### New Steps for Extensions
+Additional insights to enhance the dashboard:
+  1. **Return Analysis:** Investigate return rate by market or product category.
+  2. **Top and Bottom Customers:** Identify most and least profitable customers.
+  3. **Market Analysis:** Compare performance across different markets.
+  4. **Product Analysis:** Evaluate individual product contributions.
+### Significance
+This dashboard empowers retail businesses to:
+  + Track performance through KPIs.
+  + Understand category, segment, and geographic trends.
+  + Make data-driven decisions to optimize operations.
+### Visuals
+This repository includes:
+  + Visual examples for each solved problem statemnent.
+  + Snapshots of the final dashboard with all components.
+ 
